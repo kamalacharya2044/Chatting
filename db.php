@@ -1,8 +1,8 @@
 <?php
 
-$hostname="mysql.kamalacharya.com.np";
-$user="kamal1234";
-$password="K@thmandu12#";
+$hostname="yourhostname";
+$user="username";
+$password="password";
 $database="db_chat_now";
 $con = mysqli_connect($hostname,$user,$password,$database);
 if (!$con)
